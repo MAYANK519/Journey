@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Journey Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/n1.jpg" alt="1" />
+          <h1>Anshita🥹💖</h1>
+          <div class="details">
+            <h2></h2>
+            <p>You're my heart</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n10.jpg" alt="2" />
+          <h1>I</h1>
+          <div class="details">
+            <h2></h2>
+            <p>YOU ARE IRREPLACEABLE Anshita🥹💖</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n8.jpg" alt="3" />
+          <h1>LOVE</h1>
+          <div class="details">
+            <h2></h2>
+            <p>THESE ARE SOME MOVEMENTS THAT WE SPEND TOGETHER</p>
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="Images/n9.jpg" alt="4" />
+          <h1>YOU</h1>
+          <div class="details">
+            <h2></h2>
+            <p>AND YE SAB EK SEQUENCE ME H JI!!!</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n4.jpg" alt="5" />
+          <h1>Soooo</h1>
+          <div class="details">
+            <h2></h2>
+            <p>JO HAMARI PURI JURNY KO SHOW KR RHI H</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n5.jpg" alt="6" />
+          <h1>MUCH</h1>
+          <div class="details">
+            <h2></h2>
+            <p>UMID KRTA HU APKO YE PSND AYEGA🥹</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n4.jpg" alt="7" />
+          <h1>BABY</h1>
+          <div class="details">
+            <h2></h2>
+            <p>I LOVE YOU SO MUCH BAE 🥹 AP BIN MERI LIFE NHI ABTO. HAPPY MARRIAGE Anniversary🥹 HAMNE SHADDEI KRLI THI BHULNA NHII</p>
+          </div>
+        </div>
+      
+      
+      </div>
+
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
